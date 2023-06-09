@@ -205,7 +205,7 @@ const latitud = -34.9011;
 const longitud = -56.1645;
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitud}&lon=${longitud}&lang=es&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitud}&lon=${longitud}&lang=es&appid=${apiKey}`)
         .then(response => response.json())
         .then(data => {
 
