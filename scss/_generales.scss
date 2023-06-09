@@ -1,0 +1,35 @@
+body {
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+    padding-bottom: 85px;
+    width: 100%;
+    
+}
+
+main {
+    text-align: center;
+
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+@mixin footer {
+    background-color: $background-color_2;
+    border: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    position: fixed;
+    margin: 0;
+    padding: 0
+}
+
+
+footer {
+    @include footer;
+
+
+}

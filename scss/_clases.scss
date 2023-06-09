@@ -1,0 +1,90 @@
+.anclas {
+    font-size: 1.3rem;
+    color: $color_1;
+    font-weight: 450;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color_2;
+    }
+}
+
+.colorfondo {
+    background-color: $background-color_2;
+}
+
+.imgcarousel {
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel {
+    padding-top: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: start;
+    align-items: center;
+
+}
+
+
+
+.ancho {
+    width: 100%;
+}
+
+.bodycontacto {
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+    height: 100%;
+    padding-bottom: 220px;
+}
+
+.breadcrumb {
+    font-family: $font-family_1;
+    background-color: $background-color_2;
+    font-size: 11px;
+    text-transform: lowercase;
+    font-weight: lighter;
+
+    :visited {
+        color: whitesmoke;
+    }
+
+
+
+}
+
+
+
+.imgslogan {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke
+}
+
+
+#map-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.imagentelymail {
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.row{margin-bottom: 20px;}

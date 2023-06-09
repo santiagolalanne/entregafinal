@@ -1,0 +1,152 @@
+@import "../css/estilo.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+header {
+  background-color: #168C35;
+  border: none;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.anclas {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 450;
+}
+.anclas:hover {
+  text-decoration: underline;
+  color: midnightblue;
+}
+
+.colorfondo {
+  background-color: #168C35;
+}
+
+.imgcarousel {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel {
+  padding-top: 1px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: start;
+  align-items: center;
+}
+
+.ancho {
+  width: 100%;
+}
+
+.bodycontacto {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  height: 100%;
+  padding-bottom: 220px;
+}
+
+.breadcrumb {
+  font-family: "Roboto", sans-serif;
+  background-color: #168C35;
+  font-size: 11px;
+  text-transform: lowercase;
+  font-weight: lighter;
+}
+.breadcrumb :visited {
+  color: whitesmoke;
+}
+
+.imgslogan {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+#map-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.imagentelymail {
+  width: 10%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 300px;
+  font-size: 15px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  padding-bottom: 85px;
+  width: 100%;
+}
+
+main {
+  text-align: center;
+}
+main p {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #168C35;
+  border: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px;
+  margin-bottom: 60px;
+}/*# sourceMappingURL=estilo.css.map */

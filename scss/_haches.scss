@@ -1,0 +1,22 @@
+@mixin estilo {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+
+h1 {
+    @include estilo
+}
+
+h2 {
+    @include estilo
+}
+
+$padding: 350px;
+
+h3 {
+    text-align: center;
+    padding-bottom: $padding - 50px;
+    font-size: 15px;
+}

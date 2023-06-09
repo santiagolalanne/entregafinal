@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Somos la tienda #1 de comida rapida saludable de Montevideo. Consultanos para hacer tu evento en nuestro resto!">
+    <title>Eventos -- Green To Go</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../css/img/gtg.ico">
+    <!--LIBRERIA ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.css"
+    integrity="sha512-InYSgxgTnnt8BG3Yy0GcpSnorz5gxHvT6OEoRWj91Gg+RvNdCiAharnBe+XFIDS754Kd9TekdjXw3V7TAgh6Vw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.js"
+    integrity="sha512-jt82OWotwBkVkh5JKtP573lNuKiPWjycJcDBtQJ3BkMTzu1dyu4ckGGFmDPxw/wgbKnX9kWeOn+06T41BeWitQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../entregafinal.js"></script>
+</head>
+
+<body class="ancho" class="container-fluid">
+    <header>
+        <div class="breadcrumb">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item active" aria-current="eventos.html">Eventos</li>
+                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="menu.html">Carta</a></li>
+                    <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li class="breadcrumb-item"><a href="contacto.html">Contacto</a></li>
+                </ol>
+            </nav>
+        </div>
+
+        <nav class="navbar navbar-expand-lg colorfondo">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img class="animate__animated animate__heartBeat" src="../css/img/gtg.webp" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="menu.html">CARTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" aria-current="eventos.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="imgslogan">
+            <img class="animate__animated animate__shakeX" src="../css/img/sloganweb.webp" alt="slogan">
+        </div>
+    </header>
+
+    <!--CAROUSEL BOOTSTRAP-->
+    <div id="carouselExample" class="carousel slide" class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../css/img/carrusel1.jpg.webp" class="d-block w-100 imgcarousel" alt="mesa">
+            </div>
+            <div class="carousel-item">
+                <img src="../css/img/carrusel2.jpg.webp" class="d-block w-100 imgcarousel" alt="ramen">
+            </div>
+            <div class="carousel-item">
+                <img src="../css/img/carrusel3.jpg.webp" class="d-block w-100 imgcarousel" alt="palta">
+            </div>
+            <div class="carousel-item">
+                <img src="../css/img/paredverde.jpeg" class="d-block w-100 imgcarousel" alt="paredverde">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <!-- FIN CAROUSEL BOOTSTRAP-->
+
+    <main>
+        <p>Bienvenidos a Green To Go, donde la experiencia culinaria se une a la excelencia en la organización
+            de eventos. Nos enorgullece ofrecer un lugar excepcional para vivir momentos únicos en tus reuniones, after
+            office y eventos de empresa, así como también en tus festejos personales. <br><br>
+
+            En nuestro restaurante, podrás disfrutar de una amplia variedad de platillos y bebidas en un ambiente
+            elegante y acogedor. Además, ofrecemos la opción de catering para tu empresa, asegurando que tu evento tenga
+            todo lo necesario para ser un éxito. <br><br>
+
+            Contamos con un salón para eventos con una capacidad de 35 personas sentadas o hasta 55 personas si
+            prefieres que los invitados permanezcan de pie. Ya sea que necesites organizar una cena íntima para amigos y
+            familiares, una reunión de negocios, una fiesta de cumpleaños o cualquier otro tipo de evento, nuestro
+            equipo de profesionales te ayudará a hacer realidad tus deseos y necesidades. <br><br>
+
+            Además, nuestro salón está equipado con un equipo de sonido de excelente calidad para que puedas agasajar a
+            tus invitados de la mejor manera posible. Asimismo, nuestro personal altamente capacitado estará a tu
+            disposición durante todo el evento para asegurarse de que todo esté en orden y tus invitados disfruten de
+            una experiencia inolvidable. <br><br>
+
+            En nuestro restaurante trabajamos con los más altos estándares de calidad y profesionalismo para garantizar
+            que cada evento sea un éxito. Nos aseguramos de que la decoración sea perfecta, que la comida sea deliciosa
+            y que la música esté a la altura del evento que estás organizando. <br><br>
+
+            Ya sea que estés organizando un evento de empresa o un festejo personal, nuestro equipo estará a tu
+            disposición para ayudarte a planificar cada detalle y hacer que tu evento sea un éxito. Nos encargamos de
+            todo, desde el diseño del menú hasta la decoración y la organización general del evento. <br><br>
+
+            Si estás buscando un lugar excepcional para organizar tu evento, no busques más allá de nuestro restaurante.
+            Contáctanos hoy mismo para programar una visita y ver por ti mismo todo lo que podemos ofrecer. Estamos
+            seguros de que te encantará lo que encontrarás en nuestro restaurante y que estarás deseando regresar una y
+            otra vez. Te esperamos para crear juntos momentos inolvidables.
+        </p>
+        <br><br>
+    
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <form id="formulario2">
+                    <label for="Nombre y apellido">Nombre y apellido</label>
+                    <input id="Nombre y apellido" type="text" placeholder="Ingrese su nombre y apellido">
+                    <br><br>
+                    <label for="nro de personas">Nro de invitados</label>
+                    <input id="nro de personas" type="number" placeholder="Ingrese cantidad de invitados">
+                    <br><br>
+                    <label for="fecha del evento">Fecha del evento</label>
+                    <input id="fecha del evento" type="date" placeholder="Ingrese fecha del evento">
+                    <br><br>
+                    <label for="E-mail">E-mail</label>
+                    <input id="E-mail" type="email" placeholder="Ingrese su e-mail">
+                    <br><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Dejá tu mensaje"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Restablecer">
+                </form>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="../css/img/wrapspared.jpg" alt="wraps y pared" style="max-width: 100%;">
+            </div>
+        </div>
+
+    </main>
+    <br><br><br>
+    <footer>
+        <h1>Green To Go® es una marca registrada. ©2023 Todos los derechos reservados.</h1>
+
+
+        <ul>
+            <li><a href="https://www.facebook.com/GreenToGoUruguay/" target="_blank"> <img src="../css/img/logofb.webp"
+                        alt="logo instagram"> </a></li>
+
+            <li><a href="https://www.instagram.com/greentogouruguay/" target="_blank"> <img src="../css/img/logoig.webp"
+                        alt="logo instagram"> </a>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

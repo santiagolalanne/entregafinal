@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos la tienda #1 de comida rapida saludable de Montevideo. Lee nuestro menú!">
+    <title>Menú -- Green To Go</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../css/img/gtg.ico">
+
+    <!--LIBRERIA ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/estilo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.css"
+        integrity="sha512-InYSgxgTnnt8BG3Yy0GcpSnorz5gxHvT6OEoRWj91Gg+RvNdCiAharnBe+XFIDS754Kd9TekdjXw3V7TAgh6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.5/sweetalert2.min.js"
+        integrity="sha512-jt82OWotwBkVkh5JKtP573lNuKiPWjycJcDBtQJ3BkMTzu1dyu4ckGGFmDPxw/wgbKnX9kWeOn+06T41BeWitQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+</head>
+
+<body class="ancho" class="container-fluid">
+    <header>
+        <div class="breadcrumb">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item active" aria-current="menu.html">Carta</li>
+                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="eventos.html">Eventos</a></li>
+                    <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li class="breadcrumb-item"><a href="contacto.html">Contacto</a></li>
+                </ol>
+            </nav>
+        </div>
+        <p>Temperatura: <span id="temperatura"></span></p>
+        <p>Estado del clima: <span id="estado-clima"></span></p>
+        <nav class="navbar navbar-expand-lg colorfondo">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img class="animate__animated animate__heartBeat" src="../css/img/gtg.webp" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" aria-current="page" href="menu.html">CARTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="eventos.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anclas" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="imgslogan">
+            <img class="animate__animated animate__bounce" src="../css/img/sloganweb.webp" alt="slogan">
+        </div>
+    </header>
+    <main>
+
+        </p>
+        <div class="row">
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Ensalada Salmón</p> <a>$425</a> <button class="agregar-carrito">Agregar al
+                    carrito</button><br><br><img class="img-fluid" src="../css/img/salmon.jpg" alt="salmon">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Ensalada Mediterranea</p> <a>$385</a> <button class="agregar-carrito">Agregar al
+                    carrito</button><br><br><img class="img-fluid" src="../css/img/mediterranea.jpg" alt="mediterránea">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Ensalada Panceta</p> <a>$385</a> <button class="agregar-carrito">Agregar al
+                    carrito</button><br><br><img class="img-fluid" src="../css/img/panceta.jpg" alt="panceta">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Ensalada Pasta</p> <a>$310</a> <button class="agregar-carrito">Agregar al
+                    carrito</button><br><br><img class="img-fluid" src="../css/img/pasta.JPG" alt="pasta">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Bibimbap</p> <a>$460</a> <button class="agregar-carrito">Agregar al carrito</button><br><br><img
+                    class="img-fluid" src="../css/img/bibimbap.JPG" alt="bibimbap">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Wrap Proteico</p> <a>$365</a> <button class="agregar-carrito">Agregar al carrito</button><br><br><img
+                    class="img-fluid" src="../css/img/wproteico.jpg" alt="wrap proteico">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Ramen</p> <a>$460</a> <button class="agregar-carrito">Agregar al carrito</button><br><br><img
+                    class="img-fluid" src="../css/img/ramen.jpeg" alt="ramen">
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-s-12">
+                <p>Bocata Veggie</p> <a>$365</a> <button class="agregar-carrito">Agregar al carrito</button><br><br><img
+                    class="img-fluid" src="../css/img/bveggie.jpg" alt="bocata veggie">
+
+            </div>
+
+            <button class="vaciar-carrito">Vaciar carrito</button><br>
+
+            <button class="pagar-ahora">Comprar</button>
+
+        </div>
+
+        <div id="carrito"></div>
+        <div id="total"></div>
+        <div id="mensaje-compra"></div>
+
+       
+    </main>
+
+
+    <br><br><br>
+    <footer>
+       
+        <h1>Green To Go® es una marca registrada. ©2023 Todos los derechos reservados.</h1>
+
+
+        <ul>
+            <li><a href="https://www.facebook.com/GreenToGoUruguay/" target="_blank"> <img src="../css/img/logofb.webp"
+                        alt="logo instagram"> </a></li>
+
+            <li><a href="https://www.instagram.com/greentogouruguay/" target="_blank"> <img src="../css/img/logoig.webp"
+                        alt="logo instagram"> </a>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="../entregafinal.js"></script>
+</body>
+
+</html>
